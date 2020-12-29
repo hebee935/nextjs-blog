@@ -1,0 +1,17 @@
+{
+    "service": "MyBlog",
+    "env": "develop",
+    "port": 3100,
+
+    "mongo_url": "mongodb+srv://lambdauser:fbIByTt6EqhwEUcE@cluster0.br9hg.mongodb.net/quakka?retryWrites=true&w=majority",
+
+    "secret_key": "MyBlogSECret2020",
+    "token_expired_days": "1m",
+
+    "aws": {
+        "region": "ap-northeast-2",
+        "access_key_id": "AKIARLPC26CQO3B6BNOR",
+        "secret_access_key": "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",
+		"s3_bucket": "myblog-file-object/develop"
+    }
+}

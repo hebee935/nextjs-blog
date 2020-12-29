@@ -1,0 +1,18 @@
+{
+    "service": "MyBlog",
+    "env": "local",
+    "port": 3100,
+    "api": "http://localhost:3100/api/v1",
+
+    "mongo_url": "mongodb://localhost:27017/myblog",
+
+    "secret_key": "MyBlogSECret2020",
+    "token_expired_days": "1m",
+
+    "aws": {
+        "region": "ap-northeast-2",
+        "access_key_id": "AKIARLPC26CQO3B6BNOR",
+        "secret_access_key": "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",
+		"s3_bucket": "myblog-file-object/local"
+    }
+}
